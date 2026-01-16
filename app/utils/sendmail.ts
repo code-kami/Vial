@@ -44,7 +44,7 @@ export const sendWelcomeEmail = async (email: string, name: string) => {
 
               <div style="margin:2.25rem 0; text-align:center;">
                 <a href="${
-                  process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"
+                  process.env.NEXT_PUBLIC_APP_URL || "https://vial-beta.vercel.app"
                 }/subscriber"
                   style="
                     display:inline-block;
